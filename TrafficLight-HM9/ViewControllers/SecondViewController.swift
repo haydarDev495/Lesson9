@@ -25,6 +25,7 @@ class SecondViewController: UIViewController {
         switch number {
         case 1:
             redView.alpha = 1
+            startButton.setTitle("Next", for: .normal)
             greenView.alpha = 0.3
             number += 1
         case 2:
